@@ -1,0 +1,17 @@
+##### PHOTOMOSAIC #####
+
+Rodrigo de Toledo Montandon Dumont - GRR20104762 - rodrigoxbr@gmail.com
+Andre de Mello Boeira - GRR20106029 - amb10@inf.ufpr.br
+
+### INSTRUCOES DE USO ###
+	.crie um arquivo contendo uma lista dos arquivos do diretorio: "ls > lista_fotos", por exemplo
+
+	.rode o cria_arquivo da seguinte maneira: "./cria_arquivo < lista_fotos > arquivo", onde,
+arquivo e' um arquivo de saida contendo o nome da imagem, os valores predominantes de H, S, V e uma flag sinalizando se teve erro (0) ou nao (1)
+
+	.rode o photomosaic da seguinte maneira: "./photomosaic <FOTO> <DIR> <ARQ> <REPETE> <N_SEGMENTOS>", onde
+<FOTO> = foto principal, ex: foto.jpg
+<DIR> = diretorio, ex: /home/usuario/bancodedados
+<ARQ> = arquivo contendo os dados H, S, V, ex: arquivo.txt
+<REPETE> = se repete (1) ou nao (0) as imagens do banco de dados
+<N_SEGMENTOS> = numero de divisoes na imagem principal
